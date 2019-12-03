@@ -768,10 +768,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@deer-ui/core@^4.0.0-rc2.1":
-  version "4.0.0-rc2.1"
-  resolved "https://registry.yarnpkg.com/@deer-ui/core/-/core-4.0.0-rc2.1.tgz#012b0f941faf9267fa398d3a8287102c8abb05cc"
-  integrity sha512-92sAWZmFgg7y8+r+1WvKIlztT18YtrlZTt2JLsLU3aDLuc9d3a1D988RtHHQReKfxloz9ECzF93E7QHFmDSI0g==
+"@deer-ui/core@^4.0.0-rc2.4":
+  version "4.0.0-rc2.4"
+  resolved "https://registry.yarnpkg.com/@deer-ui/core/-/core-4.0.0-rc2.4.tgz#a2e92b65133f9a66bf82804161608e83c379fb4f"
+  integrity sha512-0fAIzPq54Pk8xWEyplo/N6nb0/DX/VVOVopR+6CF8zqG3gHrpMn6rwKcxpbIgODwbuEUr6/EyppgvUw6ynEQVg==
   dependencies:
     classnames "^2.2.6"
     unistore "^3.5.1"
@@ -5638,12 +5638,12 @@ gatsby-telemetry@^1.1.41:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-elk@^1.0.1-rc1.5:
-  version "1.0.1-rc1.5"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-elk/-/gatsby-theme-elk-1.0.1-rc1.5.tgz#396327b81b6cf1d0574e0be7c2fd94e9aaa3da5c"
-  integrity sha512-a8uAw+0eKQrvIMB9KD3uUzMwH4kMOaVE1I1Sp3liYuzxxj44sWF0sK0jlewa+sMt8pMLAy3tQbvLYajYhJK5eg==
+gatsby-theme-elk@^1.0.1-rc1.6:
+  version "1.0.1-rc1.6"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-elk/-/gatsby-theme-elk-1.0.1-rc1.6.tgz#3143831bae3d095402065cefabfa9b923d6adc07"
+  integrity sha512-KN+s2Y/Y+cW1dlrSMwrDvZy9HKOxDmvQZLEgO+HB22rXnqETefLU3nfUc1R+MQpd0QkSMiNnQzrZgJryJdl3/Q==
   dependencies:
-    "@deer-ui/core" "^4.0.0-rc2.1"
+    "@deer-ui/core" "^4.0.0-rc2.4"
     "@mini-code/base-func" "^1.1.0"
     css-loader "^3.2.0"
     gatsby "^2.18.5"
