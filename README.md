@@ -17,7 +17,7 @@ And then open [http://localhost:7788](http://localhost:7788)
 
 ## Writing blog
 
-Blogs' storage dir is `/content/blog-posts/`, you can organize files under  year's dir, like `/content/blog-posts/2019/post.md`
+The storage dir of blogs is `/content/blog-posts/`, you can organize files under year's dir, like `/content/blog-posts/2019/post.md`
 
 ## Assets dir
 
@@ -40,9 +40,11 @@ Sometime you want to add some image in you post, and you can place the images as
 
 ## Write a page
 
+### Add page
+
 Sometime you want to add a page in your blog, like `about` page to intro what is the topic of your blog, you can add any page in `/content/pages`, like:
 
-Edit frontmatter field layout to `page`
+Edit frontmatter field `layout` to `page`
 
 ```markdown
 ---
@@ -55,7 +57,11 @@ layout: page
 Custom page
 ```
 
-and add `sideMenu` options to gatsby-config.js, like:
+And then you can access that page in `http://localhost:7788/custom`
+
+### Add navigation
+
+You can also edit the `sideMenu` option in gatsby-config.js to make side menu in side header:
 
 ```js
 module.exports = {
@@ -65,6 +71,10 @@ module.exports = {
       options: {
         ...options,
         sideMenu: [
+          {
+            title: 'Custom',
+            path: '/custom',
+          },
           {
             title: 'Blog',
             path: '/',
@@ -88,6 +98,4 @@ module.exports = {
 };
 ```
 
-That is buildin menu.
-
-Once added page, you can access that in `host/pageName`, like `localhost:7788/custom`.
+Done.
