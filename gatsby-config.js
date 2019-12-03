@@ -20,6 +20,28 @@ module.exports = {
           showBuildInfo: true,
           since: 2013,
         },
+        sideMenu: [
+          {
+            title: 'Blog',
+            path: '/',
+          },
+          {
+            title: 'Archive',
+            path: '/archive',
+          },
+          {
+            title: 'Tags',
+            path: '/tags',
+          },
+          {
+            title: 'About',
+            path: '/about',
+          },
+          {
+            title: 'Custom Menu',
+            path: '/custom',
+          },
+        ],
       },
     },
     {

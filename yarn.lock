@@ -5638,10 +5638,10 @@ gatsby-telemetry@^1.1.41:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-elk@^1.0.1-rc1.4:
-  version "1.0.1-rc1.4"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-elk/-/gatsby-theme-elk-1.0.1-rc1.4.tgz#d35f8cf76bbf62619c6c023ae782398407d64d4b"
-  integrity sha512-EHitXXMjd3mckrOQhVrny2uXC9K+E2M0zH77TdHL9NmaxtWNdRUY1rKFrruPzYO8EBY2dYRmeIEp1xBixBMy8A==
+gatsby-theme-elk@^1.0.1-rc1.5:
+  version "1.0.1-rc1.5"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-elk/-/gatsby-theme-elk-1.0.1-rc1.5.tgz#396327b81b6cf1d0574e0be7c2fd94e9aaa3da5c"
+  integrity sha512-a8uAw+0eKQrvIMB9KD3uUzMwH4kMOaVE1I1Sp3liYuzxxj44sWF0sK0jlewa+sMt8pMLAy3tQbvLYajYhJK5eg==
   dependencies:
     "@deer-ui/core" "^4.0.0-rc2.1"
     "@mini-code/base-func" "^1.1.0"
