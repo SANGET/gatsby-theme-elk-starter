@@ -1,6 +1,6 @@
 # Gatsby-theme-elk-starter
 
-Start write blog by markdown, and build with gatsby.
+Start write blog with markdown and build it by gatsby.
 
 ## Usage
 
