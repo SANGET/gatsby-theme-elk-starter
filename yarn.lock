@@ -768,13 +768,12 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@deer-ui/core@^4.0.0-rc2.4":
-  version "4.0.0-rc2.4"
-  resolved "https://registry.yarnpkg.com/@deer-ui/core/-/core-4.0.0-rc2.4.tgz#a2e92b65133f9a66bf82804161608e83c379fb4f"
-  integrity sha512-0fAIzPq54Pk8xWEyplo/N6nb0/DX/VVOVopR+6CF8zqG3gHrpMn6rwKcxpbIgODwbuEUr6/EyppgvUw6ynEQVg==
+"@deer-ui/core@^4.0.0-rc3.2":
+  version "4.0.0-rc3.2"
+  resolved "https://registry.yarnpkg.com/@deer-ui/core/-/core-4.0.0-rc3.2.tgz#1ff01dbbc75e344b90c04da52cb7fc2d1e11b5d1"
+  integrity sha512-Bl9PY4cpflS17iYELObF4g2SQG77r/mab4nCctlHfa3mFQIDREJ5RdkWnSy0wXxw8+shFAaUPFVvl5DiFmyYPg==
   dependencies:
     classnames "^2.2.6"
-    unistore "^3.5.1"
 
 "@hapi/address@2.x.x":
   version "2.1.4"
@@ -5638,12 +5637,12 @@ gatsby-telemetry@^1.1.41:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-elk@^1.0.1-rc1.6:
-  version "1.0.1-rc1.6"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-elk/-/gatsby-theme-elk-1.0.1-rc1.6.tgz#3143831bae3d095402065cefabfa9b923d6adc07"
-  integrity sha512-KN+s2Y/Y+cW1dlrSMwrDvZy9HKOxDmvQZLEgO+HB22rXnqETefLU3nfUc1R+MQpd0QkSMiNnQzrZgJryJdl3/Q==
+gatsby-theme-elk@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-elk/-/gatsby-theme-elk-1.0.2.tgz#4d08d87c8f4647faf09f55e76c727c45da386b45"
+  integrity sha512-p3ui0tYP/9LuoxyzV7Dm1+T9C3n0/GTPQDRaNGjoPPi9c2yB+wqnXEleCk9BX+OftIkfHpDrlkil0848L573Sg==
   dependencies:
-    "@deer-ui/core" "^4.0.0-rc2.4"
+    "@deer-ui/core" "^4.0.0-rc3.2"
     "@mini-code/base-func" "^1.1.0"
     css-loader "^3.2.0"
     gatsby "^2.18.5"
@@ -12961,7 +12960,7 @@ unist-util-visit@^1.0.0, unist-util-visit@^1.1.0, unist-util-visit@^1.4.1:
   dependencies:
     unist-util-visit-parents "^2.0.0"
 
-unistore@^3.4.1, unistore@^3.5.1:
+unistore@^3.4.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/unistore/-/unistore-3.5.1.tgz#2ce7e17524f8e1390adaf59a88abdeb39e455333"
   integrity sha512-lagQJ5SeDssjh9tYVwOlPloDCLpn0lvHkvOpf+X4q4thnMJ3uLJcT6YO9cuww8K9qsJOyUWKufdfIF3qUe/9ow==
